@@ -1,0 +1,323 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+/*Custom Css Start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: 'Alfa Slab One', cursive;
+}
+p,span,input{
+	font-family: 'Montserrat', sans-serif;
+}
+h2, h3,h4,h5,h6, button{
+	font-family: 'Bebas Neue', cursive;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/*Header Part Css start */
+
+header{
+	width: 100%;
+	background: url(../Image/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 115vh;
+}
+nav{
+	padding: 30px 0 !important;
+}
+.navbar-brand{
+	width: 18%
+}
+.nav-item{
+	margin-left: 10px;
+}
+.nav-link{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.banner{
+    width: 100%;
+    margin: 180px 0;
+    /*display: table-cell;
+    vertical-align: middle;
+    height: 75vh;*/
+}
+.banner .pre-title{
+	font-size: 18px;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding: 7px;
+
+}
+.banner .title{
+	font-size: 90px;
+	color: #3d2514;
+	text-shadow: 4px 3px #fee8bb;
+
+}
+.banner .sub-title{
+	font-size: 50px;
+	color: #3d2514;
+	text-shadow: 4px 3px #fee8bb;
+}
+
+
+/*Header Part Css end */
+
+/*About part CSS start*/
+
+.about-burger{
+	width: 100%;
+	padding: 60px;
+
+}
+.about-info{
+	position: relative;
+}
+.about-title{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.about-title{
+	color: #fff;
+	font-weight: 550;
+	top: 18px;
+    left: 30px;
+    text-transform: uppercase;
+}
+.about-title h4{
+	font-size: 30px !important;
+}
+.about-title h2{
+	font-size: 43px !important;
+	line-height: 43px !important;
+}
+.upper-pic{
+	position: relative;
+	margin-bottom: 32px;
+}
+
+.lower-pic{
+	position: relative;
+}
+.button-01{
+	text-align: center;
+	margin: 35px 0;
+}
+.btn-primary{
+	background-color: #ffc658 !important;
+    border: none;
+    border-radius: 0 !important;
+    color: #3d2514 !important;
+    padding: 8px 20px;
+}
+.btn-primary:hover{
+    background-color: #3d2514;
+}
+
+/*About part CSS end*/
+
+
+/*Menu part Css start*/
+
+.menu-part{
+	width: 100%;
+	text-align: center;
+	margin-bottom:  55px !important;
+}
+.menu-part h1{
+	color: #3d2514 !important;
+	margin-bottom: 16px;
+	margin-top: -50px;
+}
+
+.menu-order{
+	margin-top: 30px;
+
+}
+.menu-order h3{
+	margin-top: 12px;
+	font-size: 32px;
+}
+.oder-now{
+	font-family: 'Alfa Slab One', cursive !important;
+    padding: 10px 20px !important;
+    color: white;
+    background-color: #bf2222;
+    border: none;
+}
+
+/*Menu part css end*/
+
+/*Event part css start*/
+.event-part{
+	width: 100%;
+	padding: 50px 0px;
+
+}
+.event-box{
+	transition: all 0.5s ease-in-out;
+}
+.event-box:hover{
+	box-shadow: 7px 6px 12px 1px rgba(0,0,0,0.6);
+	transition: all 0.5s ease-in-out;
+
+}
+.event-body{
+	padding: 50px 20px;
+}
+.event-body h4{
+	font-weight: 500;
+	font-size: 30px !important;
+}
+.event-body h1{
+	color: #3d2514 !important;
+	box-shadow: 2px 2px solid white;
+	margin-bottom: 16px !important;
+}
+.owl-theme .owl-nav{
+	display: none;
+}
+.owl-theme .owl-dots{
+	position: absolute;
+    bottom: 16px;
+    left: 35px;
+}
+
+
+/*Event part css end*/
+
+/*Log in part  css start*/
+
+.log-in{
+	width: 100%;
+	position: relative;
+	
+}
+.sign-in-title{
+	position: absolute;
+    text-align: center;
+    right: 410px;
+    top: 68px;
+	
+}
+.sign-in-title h4{
+	text-transform: uppercase;
+	color: #3d2514 !important;
+	margin-bottom: 25px;
+}
+.sign-in-title h1{
+	text-transform: uppercase;
+	color: #3d2514 !important;
+	margin-bottom: 80px;
+}
+
+.resigter{
+	text-align: center;
+    /*margin-top: -525px;*/
+}
+.sign-in-part{
+	margin-bottom: 20px;
+	
+}
+.sign-in-part input{
+	border: 2px solid #3d2514;
+	    padding: 17px 56px 17px 35px;
+}
+.sign-in-button{
+	padding: 10px 89px;
+	font-size: 25px;
+	color: white;
+	background-color: red;
+	border: 2px solid red;
+
+}
+
+
+/*log in part css end*/
+
+/*footer  part css  start*/
+.footer{
+	width: 100%;
+}
+.footer-banner{
+	position: relative;
+}
+.footer-text{
+	position: absolute;
+	top: 90px;
+    left: 61px;
+}
+.footer-text img{
+	margin-bottom: 15px;
+}
+.footer-text p{
+	color: white !important;
+	font-size: 14px !important;
+}
+.footer-text ul li{
+	list-style: none;
+	color: white !important;
+	font-size: 14px !important;
+
+}
+.footer-text i{
+	color: white !important;
+	font-size: 14px  !important;
+}
+.list-ok{
+	margin-top: 80px;
+    margin-left: 100px;
+    
+}
+
+.list-ok i{
+	font-size: 20px !important;
+}
+.social-media{
+	text-align: center; 
+    margin-right: -240px;
+    margin-top: -65px;
+}
+.social-media ul li{
+	display: inline-block;
+}
+.social-media ul li a i{
+	font-size: 16px !important;
+	height: 35px;
+	width: 35px;
+	border-radius: 100%;
+	color: #3d2514;
+	background-color: white;
+	line-height: 35px;
+    margin-left: 5px;
+	transition: 0.25s;
+
+}
+.social-media ul li a i:hover{
+    font-size: 24px;
+    background-color:#2D3334;
+    transition:0.25s;
+    transform: scale(1.2);
+}
+.copyright{
+	margin-top: -42px;
+    margin-left: 29px;
+    color: white;
+}
+
+
+
+
+/*Footer part css end */
